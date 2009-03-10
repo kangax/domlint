@@ -1,0 +1,18 @@
+body { font-family: Georgia, serif; font-size: 100%; }
+label { margin-bottom: 0.5em; }
+input.text { width: 400px; padding: 0.1em; font-size: 110%; font-family: Courier, sans-serif; }
+#log { float: left; width: 100%; }
+#log p { float: left; clear: both; margin: 0.2em; background: #ffd; padding: 0.5em; }
+#log .label { float: left; display: block; width: 400px; }
+#log .result { float: left; padding: 0.1em 0.5em; clear: right; }
+#log .conflicts { clear: left; background: #faa; margin-top: 2em; margin-bottom: 0; }
+.pass { background-color: #afa; }
+.fail { background-color: #faa; }
+ol { color: #444; margin-bottom: 2em; }
+ol li { margin-bottom: 0.75em; margin-top: 2em; }
+.powered-by { font-size: 75%; }
+pre { background: #ffc; padding: 1em; overflow: auto; }
+.column { float: left; width: 50%; }
+.left { width: 600px; }
+.example { display: block; width: 6.5em; font-style: italic; margin-top: 0.5em; }
+.small {font-size: 80%; }
