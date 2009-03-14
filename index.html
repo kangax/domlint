@@ -62,7 +62,7 @@
           <code><a href="http://www.w3.org/TR/DOM-Level-2-Style/css.html#CSS-ElementCSSInlineStyle" 
             title="Specification for ElementCSSInlineStyle">ElementCSSInlineStyle</a></code>
           as well as
-          <code><a href="http://bclary.com/2004/11/07/#a-15.2.3.1" title="Specification for Object.prototype">Object.prototype</a></code>
+          <code><a href="http://bclary.com/2004/11/07/#a-15.2.3.1" title="Unofficial specification for Object.prototype">Object.prototype</a></code>
           <br>
           <a href="#" title="See example" style="display:none" class="example">See example &raquo;</a>
           <pre>
@@ -89,7 +89,7 @@
           <code><a href="http://www.w3.org/TR/DOM-Level-2-Events/events.html#Events-EventTarget"
             title="Specification for EventTarget">EventTarget</a></code>
           as well as
-          <code><a href="http://bclary.com/2004/11/07/#a-15.2.3.1" title="Specification for Object.prototype">Object.prototype</a></code>
+          <code><a href="http://bclary.com/2004/11/07/#a-15.2.3.1" title="Unofficial specification for Object.prototype">Object.prototype</a></code>
           <br>
           <a href="#" title="See example" style="display:none" class="example">See example &raquo;</a>
           <pre>
@@ -128,11 +128,13 @@
         <li>
           In <strong>MSHTML DOM</strong>, id values of elements in NodeList are populated as properties of that NodeList.
           These values might conflict with actual properties of NodeList - <code>item</code>, <code>length</code>, etc.
+          Opera is partially affected in the same way - while <code>length</code> is never shadowed, 
+          such <code>NodeList</code> methods as <code>item</code> and <code>namedItem</code> are.
           <br>
           Tested against
           <code><a href="http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-536297177" title="Specification for NodeList">NodeList</a></code>
           and
-          <code><a href="http://bclary.com/2004/11/07/#a-15.2.3.1" title="Specification for Object.prototype">Object.prototype</a></code>
+          <code><a href="http://bclary.com/2004/11/07/#a-15.2.3.1" title="Unofficial specification for Object.prototype">Object.prototype</a></code>
           <br>
           <a href="#" title="See example" style="display:none" class="example">See example &raquo;</a>
           <pre>

@@ -39,7 +39,8 @@ var callbacks = (function() {
     "valueOf",
     "hasOwnProperty",
     "isPrototypeOf",
-    "propertyIsEnumerable"
+    "propertyIsEnumerable",
+    "constructor"
   ];
   
   var NODE_PROPERTIES = [
@@ -268,8 +269,7 @@ var callbacks = (function() {
     "TypeError",
     "URIError",
     
-    // Global properties
-    // null can not be overwritten
+    // Global properties (ECMA-262, ed.3, 15.1.1)
     "Infinity",
     "NaN",
     "undefined",
