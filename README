@@ -1,1 +1,9 @@
 DOMLint - Test suite against HTML/DOM conflicts
+
+TODO:
+
+  - Explain how DOMLint works in a blog post
+  - Check if YQL supports text sending
+  - Fix bugs with digg.com and groups.google.com
+  - Mention 86 global SVGxx properties in Opera
+  - Add ability to toggle SVG, Aria, etc. optional properties check
